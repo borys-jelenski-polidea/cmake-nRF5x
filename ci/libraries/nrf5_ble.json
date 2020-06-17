@@ -1,6 +1,7 @@
 {
   "nrf5_ble_common": {
     "documentation": "BLE common",
+    "groups": [ "ble" ],
     "variant": "object",
     "sources": [
       "components/ble/common/ble_advdata.c",
@@ -95,6 +96,7 @@
   },
   "nrf5_ble_gatt": {
     "documentation": "BLE GATT",
+    "groups": [ "ble" ],
     "variant": "object",
     "sources": [
       "components/ble/nrf_ble_gatt/nrf_ble_gatt.c"
@@ -113,6 +115,7 @@
   },
   "nrf5_ble_qwr": {
     "documentation": "BLE Queued Writes",
+    "groups": [ "ble" ],
     "variant": "object",
     "sources": [
       "components/ble/nrf_ble_qwr/nrf_ble_qwr.c"

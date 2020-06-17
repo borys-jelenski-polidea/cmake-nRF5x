@@ -10,6 +10,7 @@
   },
   "nrf5_strerror": {
     "documentation": "strerror (error to string converion)",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/strerror/nrf_strerror.c"
@@ -30,6 +31,7 @@
   },
   "nrf5_section": {
     "documentation": "Section variables (experimental)",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/experimental_section_vars/nrf_section_iter.c"
@@ -50,6 +52,7 @@
   },
   "nrf5_atomic": {
     "documentation": "Atomic",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/atomic/nrf_atomic.c"
@@ -104,6 +107,7 @@
   },
   "nrf5_sdh": {
     "documentation": "SoftDevice Handler",
+    "groups": [ "ble" ],
     "variant": "object",
     "sources": [
       "components/softdevice/common/nrf_sdh.c",
@@ -145,6 +149,7 @@
   },
   "nrf5_balloc": {
     "documentation": "Block Allocator",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/balloc/nrf_balloc.c"
@@ -169,6 +174,7 @@
   },
   "nrf5_memobj": {
     "documentation": "Memory Object",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/memobj/nrf_memobj.c"
@@ -188,6 +194,7 @@
   },
   "nrf5_ringbuf": {
     "documentation": "Ring Buffer",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/ringbuf/nrf_ringbuf.c"
@@ -206,6 +213,7 @@
   },
   "nrf5_atfifo": {
     "documentation": "Atomic FIFO",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/atomic_fifo/nrf_atfifo.c"
@@ -226,6 +234,7 @@
   },
   "nrf5_atflags": {
     "documentation": "Atomic Flags",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/atomic_flags/nrf_atflags.c"
@@ -267,6 +276,7 @@
   },
   "nrf5_pwr_mgmt": {
     "documentation": "Power management",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/pwr_mgmt/nrf_pwr_mgmt.c"

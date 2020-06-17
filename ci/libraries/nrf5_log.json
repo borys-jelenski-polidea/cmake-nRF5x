@@ -83,6 +83,7 @@
   },
   "nrf5_log": {
     "documentation": "Logger (frontend & formatter)",
+    "groups": [ "log" ],
     "variant": "object",
     "sources": [
       "components/libraries/log/src/nrf_log_frontend.c",
@@ -112,6 +113,7 @@
   },
   "nrf5_log_backend_serial": {
     "documentation": "Logger Serial backend",
+    "groups": [ "log" ],
     "variant": "object",
     "sources": [
       "components/libraries/log/src/nrf_log_backend_serial.c"
@@ -124,6 +126,7 @@
   },
   "nrf5_log_backend_uart": {
     "documentation": "Logger UART backend",
+    "groups": [ "log" ],
     "variant": "object",
     "sources": [
       "components/libraries/log/src/nrf_log_backend_uart.c"
@@ -137,6 +140,7 @@
   },
   "nrf5_log_backend_flash": {
     "documentation": "Logger Flash backend",
+    "groups": [ "log" ],
     "variant": "object",
     "sources": [
       "components/libraries/log/src/nrf_log_backend_flash.c"
@@ -150,6 +154,7 @@
   },
   "nrf5_log_backend_rtt": {
     "documentation": "Logger RTT backend",
+    "groups": [ "log" ],
     "variant": "object",
     "sources": [
       "components/libraries/log/src/nrf_log_backend_rtt.c"
@@ -163,6 +168,7 @@
   },
   "nrf5_log_default_backends": {
     "documentation": "Logger (default backends)",
+    "groups": [ "log" ],
     "variant": "object",
     "sources": [
       "components/libraries/log/src/nrf_log_default_backends.c"

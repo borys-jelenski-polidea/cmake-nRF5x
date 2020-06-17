@@ -21,6 +21,7 @@
   },
   "nrf5_app_error": {
     "documentation": "Application Error",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/util/app_error.c",
@@ -40,6 +41,7 @@
   },
   "nrf5_app_util_platform": {
     "documentation": "Application Platform Utilities",
+    "groups": [ "common" ],
     "variant": "object",
     "sources": [
       "components/libraries/util/app_util_platform.c"
